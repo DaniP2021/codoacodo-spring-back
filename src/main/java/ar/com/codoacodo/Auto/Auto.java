@@ -19,14 +19,22 @@ public class Auto {
 	
 	//metodos
 	void encender() {
+		if(!encendido) {
+			System.out.println("se ha encendido");
 		encendido = true;
+	} else {
+		System.out.println("ya esta encendido");
 	}
-	
+	}
 	void apagar() {
 		
 	}
 	void acelerar() {
-		
+		if(encendido) {
+			System.out.println("acelerando");
+		} else {
+			System.out.println("debe encender el auto");
+		}
 	}
 	void frenar( ) {
 		

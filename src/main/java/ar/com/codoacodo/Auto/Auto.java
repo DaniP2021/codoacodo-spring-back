@@ -1,4 +1,4 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.Auto;
 
 public class Auto {
 	
@@ -14,11 +14,12 @@ public class Auto {
 	//constructor
 	Auto() {
 		//aca va el codigo cuando nace el auto
+		encendido = false;//nace apagado
 	}
 	
 	//metodos
 	void encender() {
-		
+		encendido = true;
 	}
 	
 	void apagar() {
@@ -30,6 +31,10 @@ public class Auto {
 	void frenar( ) {
 		
 	}
+	void mostrarInfo() {
+		System.out.println("encendido:" + encendido);
+	}
+	
 	
 
 }

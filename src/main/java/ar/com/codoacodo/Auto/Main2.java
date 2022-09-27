@@ -1,4 +1,4 @@
-package ar.com.codoacodo;
+package ar.com.codoacodo.Auto;
 
 public class Main2 {
 

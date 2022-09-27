@@ -7,9 +7,9 @@ public class DBUtil {
 	 */
 	Articulo[] obtenerResultado(String claveBusqueda) {
 		
-		Articulo primero = new Articulo("http://sitio.com.ar/img/img1.jpg","tiulo" + claveBusqueda,"AUTOR1",4390);
-		Articulo segundo = new Articulo("http://sitio.com.ar/img/img2.jpg","tiulo" + claveBusqueda,"AUTOR2",40500);
-		Articulo tercero = new Articulo("http://sitio.com.ar/img/img3.jpg","tiulo" + claveBusqueda,"AUTOR3",2040);
+		Articulo primero = new Articulo("http://sitio.com.ar/img/img1.jpg","tiulo " + claveBusqueda," AUTOR1",4390);
+		Articulo segundo = new Articulo("http://sitio.com.ar/img/img2.jpg","tiulo " + claveBusqueda," AUTOR2",40500);
+		Articulo tercero = new Articulo("http://sitio.com.ar/img/img3.jpg","tiulo " + claveBusqueda," AUTOR3",2040);
 		
 		//crear un vector/array/arreglo!
 		//inician en la posicion 0
